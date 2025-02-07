@@ -15,16 +15,14 @@ export const GlobalCss = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     list-style: none;
   }
-
   body {
     background-color: ${cores.preta};
     color: ${cores.branca};
     padding-top: 20px;
   }
-`
-
-export const Container = styled.div`
-  max-width: 1020px;
-  width: 100%;
-  margin: 0 auto;
+  .container {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+  }
 `

@@ -1,5 +1,4 @@
 import { HeaderBar, Links, LinkItem, LinkCart } from './styles'
-
 import logo from '../../assets/images/logo.svg'
 import carrinho from '../../assets/images/carrinho.svg'
 
