@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { cores } from '../../styles'
 
-export const Itens = styled.ul`
+export const Items = styled.ul`
   display: flex;
 `
 export const Action = styled.div`
@@ -41,9 +41,13 @@ export const Modal = styled.div`
   width: 100%;
   height: 100%;
   z-index: 1;
-  display: flex;
+  display: nome;
   justify-content: center;
   align-items: center;
+
+  &.visivel {
+    display: flex;
+  }
 
   .overlay {
     position: absolute;
@@ -69,8 +73,13 @@ export const ModalContent = styled.div`
     font-weight: bold;
   }
 
-  img {
+  img,
+  iframe {
     display: block;
     max-width: 100%;
+  }
+  iframe {
+    width: 100%;
+    height: 480px;
   }
 `

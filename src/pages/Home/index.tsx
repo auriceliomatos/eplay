@@ -1,94 +1,95 @@
-import Banner from '../../components/Banneer'
+import Banner from '../../components/Banner'
 import ProductsList from '../../components/ProductsList'
-import Games from '../../models/Games'
-import resident from '../../assets/images/resident.png'
-import starWars from '../../assets/images/star_wars.png'
-import zelda from '../../assets/images/zelda.png'
-import diablo from '../../assets/images/diablo.png'
+import Game from '../../models/Game'
 
-const promocoes: Games[] = [
+import resident from '../../assets/images/resident.png'
+import diablo from '../../assets/images/diablo.png'
+import zelda from '../../assets/images/zelda.png'
+import starWars from '../../assets/images/star_wars.png'
+
+const promocoes: Game[] = [
   {
     id: 1,
-    category: 'Acao',
+    category: 'Ação',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-    title: 'GTA V',
-    system: 'windows',
-    image: resident,
-    infos: ['-5%', 'R$ 290,00']
+      'Resident Evil 4, conhecido no Japão como Biohazard 4, é um jogo eletrônico de survival horror...',
+    title: 'Resident Evil 4',
+    system: 'Windows',
+    infos: ['10%', 'R$ 250,00'],
+    image: resident
   },
   {
     id: 2,
-    category: 'Acao',
+    category: 'Ação',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-    title: 'GTA V',
-    system: 'windows',
-    image: starWars,
-    infos: ['-10%', 'R$ 150,00']
+      'Resident Evil 4, conhecido no Japão como Biohazard 4, é um jogo eletrônico de survival horror...',
+    title: 'Resident Evil 4',
+    system: 'PS5',
+    infos: ['5%', 'R$ 290,00'],
+    image: resident
   },
   {
     id: 3,
-    category: 'Acao',
+    category: 'Ação',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-    title: 'GTA V',
-    system: 'ps5',
-    image: zelda,
-    infos: ['-5%', 'R$ 290,00']
+      'Resident Evil 4, conhecido no Japão como Biohazard 4, é um jogo eletrônico de survival horror...',
+    title: 'Resident Evil 4',
+    system: 'Windows',
+    infos: ['10%', 'R$ 250,00'],
+    image: resident
   },
   {
     id: 4,
-    category: 'Acao',
+    category: 'Ação',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-    title: 'GTA V',
-    system: 'windows',
-    image: diablo,
-    infos: ['-5%', 'R$ 290,00']
+      'Resident Evil 4, conhecido no Japão como Biohazard 4, é um jogo eletrônico de survival horror...',
+    title: 'Resident Evil 4',
+    system: 'Windows',
+    infos: ['10%', 'R$ 250,00'],
+    image: resident
   }
 ]
 
-const emBreve: Games[] = [
+const emBreve: Game[] = [
   {
     id: 5,
-    category: 'Acao',
+    category: 'RPG',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-    title: 'GTA V',
-    system: 'windows',
-    image: resident,
-    infos: ['-5%', 'R$ 290,00']
+      'Diablo IV é um RPG de ação em desenvolvimento pela Blizzard Entertainment.',
+    title: 'Diablo 4',
+    system: 'Windows',
+    infos: ['17/05'],
+    image: diablo
   },
   {
     id: 6,
-    category: 'Acao',
+    category: 'RPG',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-    title: 'GTA V',
-    system: 'windows',
-    image: starWars,
-    infos: ['-10%', 'R$ 150,00']
+      'Diablo IV é um RPG de ação em desenvolvimento pela Blizzard Entertainment.',
+    title: 'Zelda',
+    system: 'Windows',
+    infos: ['17/05'],
+    image: zelda
   },
   {
     id: 7,
-    category: 'Acao',
+    category: 'RPG',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-    title: 'GTA V',
-    system: 'ps5',
-    image: zelda,
-    infos: ['-5%', 'R$ 290,00']
+      'Diablo IV é um RPG de ação em desenvolvimento pela Blizzard Entertainment.',
+    title: 'Star Wars',
+    system: 'Windows',
+    infos: ['17/05'],
+    image: starWars
   },
   {
     id: 8,
-    category: 'Acao',
+    category: 'RPG',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-    title: 'GTA V',
-    system: 'windows',
-    image: diablo,
-    infos: ['-5%', 'R$ 290,00']
+      'Diablo IV é um RPG de ação em desenvolvimento pela Blizzard Entertainment.',
+    title: 'Resident Evil 4',
+    system: 'Nintendo Switch',
+    infos: ['17/05'],
+    image: resident
   }
 ]
 
